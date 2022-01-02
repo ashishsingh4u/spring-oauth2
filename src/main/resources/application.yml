@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: spring-oauth2
+  output:
+    ansi:
+      enabled: ALWAYS
+security:
+    user:
+      password: password
+    oauth2:
+      resource:
+        filter-order: 3
